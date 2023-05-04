@@ -1,0 +1,121 @@
+@font-face{
+    font-family: 'BodoniXT';
+    src:local("BodoniXT") url(Fuentes/BodoniXT.ttf) format('truetype');
+    font-style:normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Nalieta' ;
+    src: url(Fuentes/Nalieta_dafont.otf) format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face{
+    font-family: 'Kiona-regular' ;
+    src: url(Fuentes/Kiona-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Kiona-itallic' ;
+    src: url(Fuentes/Kiona-Itallic.ttf) format('truetype');
+    font-style: italic ;
+    font-weight: normal;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imagen_inicio{
+    width: 100%; 
+    filter:brightness(0.5); 
+    height: 100%; 
+ }
+ 
+ .caja_imagen{
+    background: url("Imagenes/salas\ PS\ 1.png") top center no-repeat;
+    padding-bottom:30%;
+    width: 100%;        
+    overflow: hidden;
+    height: 50%;
+    position: relative;
+ }
+ 
+ .texto_encima{  
+    padding-right:15%;
+    padding-left:15%;     
+    font-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 5%;
+ }
+ .texto_parrafo {         
+    padding-right:15%;
+    padding-left:15%; 
+    font-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 255);
+    text-align: justify;
+ }
+
+ /*Seccion de pie de pagina*/
+ #local {
+    background: #f3f3f3;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .wrapper {
+    width: 50%;
+    margin-left: 50px;
+    padding-top: 20px;
+ }
+
+ @media (max-width: 1200px){
+    #local{
+        flex-wrap: wrap;
+        padding-top: 30px;        
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+ }
+
+#numeros-local div {
+    padding: 0 20px 0 0;
+    height: 48px;     
+}
+
+#numeros-local div:not(:last-child){
+    border-right: 2px solid #3f3f3f;
+}
+
+#numeros-local div:not(:first-child){
+    padding-left: 20px;
+}
+
+#numeros-local p {
+    margin: 0;
+}
+
