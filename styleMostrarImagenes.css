@@ -1,8 +1,8 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10 px;
-    
+    grid-gap: 20px / 5px;
+   
 }
 
 @media (max-width: 1100px){
@@ -18,7 +18,7 @@
 }
 
 .grid-item {
-   
+ 
     background-color: white;
     border: 40px solid white;
     border-radius: 5%;
@@ -28,16 +28,30 @@
     margin-bottom: 10px;
     margin-right: 10px;
     text-align: center;
+    align-items: center;
     font-family: 'Monserrat', sans-serif;
     
 }
 
+
 .grid-item img {
+    
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    margin-bottom: 10px;
     opacity: 0.8;
     transition: opacity 0.5s ease-in-out;
+}
+
+.grid-item h2 {
+  font-size: x-large;
+  font: bold;
+  margin: 5px;
+}
+
+.grid-item p {
+  font-size: small;
 }
 
 .grid-item:hover {
@@ -48,20 +62,11 @@
 
   .grid-item:hover img {
     opacity: 1.2;
+    margin-top: 10px;
+    margin-bottom: 30px;
   }
 
   .grid-item:hover h2 {
     opacity: 1;
-  }
-
-  .grid-item h2 {
-    font-size: x-large;
-    font: bold;
-  }
-
-  .grid-item p {
-    font-size: small;
-  }
-
- 
+  } 
 

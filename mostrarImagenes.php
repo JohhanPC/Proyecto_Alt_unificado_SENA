@@ -48,12 +48,12 @@ class mostrarArticulos{
 			// Ciclo para mostrar los resultados
 			while ($row = mysqli_fetch_assoc($result)) {
 				echo "<div class='grid-item'>";
-                echo "<img src='" . $row["Imagen_producto"] . "' alt='" . $row["Nombre_producto"] . "'>";
-				echo "<h2>" . $row["Nombre_producto"] . "</h2>";
-                echo "<h2>" . $row["Precio_producto"] . "</h2>";				
-				echo "<p>" . $row["Descripcion_producto"] . "</p>";
-				echo "<p>" . $row["Colores_producto"] . "<p>";
-				echo "<p>" . $row["Materiales_producto"] . "<p>";
+				echo "<img src='" . $row["url_imagen"] . "' alt='" . $row["nombre"] . "'>";				
+				echo "<h2>" . $row["nombre"] . "</h2>";
+				echo "<h2>" . $row["precio"] . "</h2>";				
+				// echo "<p>" . $row["descripcion"] . "</p>";
+				//echo "<p>" . $row["colores"] . "<p>";
+				//echo "<p>" . $row["materiales"] . "<p>";
 				echo "</div>";
 			}
 

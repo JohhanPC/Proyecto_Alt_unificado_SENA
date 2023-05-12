@@ -95,26 +95,27 @@
             include ("mostrarImagenes.php");
             
             $muestrarSalas = new mostrarArticulos;
-            $muestrarSalas->datosDB('localhost', 'root','','pru_productos', 'productos2');
+            $muestrarSalas->datosDB('localhost', 'root','','pru_productos', 'salas');
             $muestrarSalas->mostrarDatos('localhost', 'root','','pru_productos');
         ?>
     </div>
 
-          <!--Datos de contacto-->
-          <div class="row mt-5" style="background-image: url(Imagenes/fondomadera.jpg);">
+      <!--Datos de contacto-->
+      <div class="row mt-5 border-top border-4" style="background-image: url(Imagenes/fondomadera.jpg);">
         <div class="col-sm-1">
         </div>
         <div class="col-sm-2" style="text-align: right; margin-top: 5%;">
           <div class="container-fluid" style="height: 100%;">
-            <a href="https://www.facebook.com/" target="_blank"><img src="Imagenes/facebook.svg" alt="" style="height: 50%;"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="Imagenes/facebook.svg" alt="" style="height: 100%;"></a>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="container-fluid" style="background-color: #485870; color: #ffffff; text-align: center; height: 100%;">
-            <br><h4 style="font-family: Goudy Old Style;">Muebles F Gonzalez</h4>
-            <h6 style="font-family:Papyrus, fantasy;">Dirección</h6>
-            <h6 style="font-family:Papyrus, fantasy;">Telfono</h6>
-            <h6 style="font-family:Papyrus, fantasy;">Email</h6><br>
+            <br><h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Muebles F Gonzalez</h4>
+            <h6 style="font-family:Papyrus, fantasy;">Dirección: Krr 24 # 15-78 sur</h6>
+            <h6 style="font-family:Papyrus, fantasy;">Telfono: 3224257854</h6>
+            <h6 style="font-family:Papyrus, fantasy;">Email: mueblesfgonzalez1@gmail.com</h6><br>
+            
           </div>
         </div>
         <div class="col-sm-2" style="text-align: left; margin-top: 5%;">  
@@ -139,7 +140,7 @@
                 <p class="text-center">Bogotá</p>
               </div>
               <div>
-                <p class="text-primary fs-5">Cumplimos con:</p>
+                <p class="text-primary fs-5">Cumplimos en:</p>
                 <p class="text-center">Habeas Data - ISO 9001</p>
               </div>
             </section>          
