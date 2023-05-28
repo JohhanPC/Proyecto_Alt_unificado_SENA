@@ -9,7 +9,7 @@
 
     <link href="misFuentes.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="styleMostrarImaganes.css">
+    
 </head>
 <body>
 
@@ -32,7 +32,7 @@
               <a class="nav-link" href="Alcobas.php" style="color: #ffffff;">Alcobas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="color: #ffffff;">Alta Carpinteria</a>
+              <a class="nav-link" href="Alta carpinteria.php" style="color: #ffffff;">Alta Carpinteria</a>
             </li>            
           </ul>   
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-building-fill" viewBox="0 0 16 16" style="background-color: black;">
@@ -45,33 +45,33 @@
 
     <!--Titulo inicial-->
     <div class="row mt-2 mb-1">
-        <div class="col-12">
-            <div class="container-fluid text-center">
-                <h1 class="mt-5" style="font-family:Bold Tex; font-size: 80px; font-size: 400%;" >Comedores</h1>
-            </div>
-        </div>
-    </div>
+      <div class="col-12">
+          <div class="container-fluid text-center">
+              <h1 class="mt-5" style="font-family:Bold Tex; font-size: 80px; font-size: 400%;" > Comedores </h1>
+          </div>
+      </div>
+  </div>
 
     <!--Nombre empresa-->
     <div class="row">
-        <div class="col-sm-12">
-            <div class="container-fluid" style="background-color: #87a77c;">
-              <h1 class="mb-1 mt-3 text-center" style="font-family:bold tex;" id="typewriter"></h1>
-            </div>
+      <div class="col-sm-12">
+        <div class="container-fluid" style="background-color: #87a77c;">
+          <h1 class="mb-1 mt-3 text-center" style="font-family:bold tex;" id="typewriter"></h1>
         </div>
-    </div>
-
+      </div>
+  </div>
+   
     <!--Carrusel-->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Imagenes/salascarrusel2.png" class="d-block w-100" alt="">
+            <img src="Imagenes/carruselcomedores1.png" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="Imagenes/salascarrusel1.png" class="d-block w-100" alt="">          
+            <img src="Imagenes/carruselcomedores2.png" class="d-block w-100" alt="">          
           </div>
           <div class="carousel-item">
-            <img src="Imagenes/salascarrusel3.png" class="d-block w-100" alt="">
+            <img src="Imagenes/comedorcarrusel3.png" class="d-block w-100" alt="">
             <div class="carousel-caption d-none d-md-block">
               <h5 style="color: black; font-family:Goudy Old Style; font-size: 60px"></h5>
               <p style="color: black; font-size: 20px;"></p>
@@ -87,21 +87,20 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
-      
-      
-    <div class="grid-container">
+
+      <!--Sección de modelos de muebles - seccion 1-->
+      <div class="grid-container">
         <?php
             include ("mostrarImagenes.php");
             
             $muestrarSalas = new mostrarArticulos;
-            $muestrarSalas->datosDB('localhost', 'root','','pru_productos', 'productos2');
-            $muestrarSalas->mostrarDatos('localhost', 'root','','pru_productos');
+            $muestrarSalas->datosDB('localhost', 'root','','db_proyecto_alterno', 'comedores');
+            $muestrarSalas->mostrarDatos();
         ?>
     </div>
 
-          <!--Datos de contacto-->
-          <div class="row mt-5" style="background-image: url(Imagenes/fondomadera.jpg);">
+      <!--Datos de contacto-->
+      <div class="row mt-5" style="background-image: url(Imagenes/fondomadera.jpg);">
         <div class="col-sm-1">
         </div>
         <div class="col-sm-2" style="text-align: right; margin-top: 5%;">
@@ -112,9 +111,9 @@
         <div class="col-sm-6">
           <div class="container-fluid" style="background-color: #485870; color: #ffffff; text-align: center; height: 100%;">
             <br><h4 style="font-family: Goudy Old Style;">Muebles F Gonzalez</h4>
-            <h6 style="font-family:Papyrus, fantasy;">Dirección</h6>
-            <h6 style="font-family:Papyrus, fantasy;">Telfono</h6>
-            <h6 style="font-family:Papyrus, fantasy;">Email</h6><br>
+            <h6 style="font-family:Papyrus, fantasy;">Dirección: Krr 24 # 15-78 sur</h6>
+            <h6 style="font-family:Papyrus, fantasy;">Telfono: 3224257854</h6>
+            <h6 style="font-family:Papyrus, fantasy;">Email: mueblesfgonzalez1@gmail.com</h6><br>
           </div>
         </div>
         <div class="col-sm-2" style="text-align: left; margin-top: 5%;">  
@@ -144,11 +143,10 @@
               </div>
             </section>          
         </div>
-      </div>
-     
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/core.js"></script>
-      <script src="main.js"></script>
-      
+      </div>     
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
