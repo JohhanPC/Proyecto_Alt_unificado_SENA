@@ -93,9 +93,9 @@
         <?php
             include ("mostrarImagenes.php");
             
-            $muestrarSalas = new mostrarArticulos;
-            $muestrarSalas->datosDB('localhost', 'root','','db_proyecto_alterno', 'comedores');
-            $muestrarSalas->mostrarDatos();
+            $mostrarComedores = new mostrarArticulos;
+            $mostrarComedores->datosDB('localhost', 'root','','db_proyecto_alterno', 'comedores');
+            $mostrarComedores->mostrarDatos();
         ?>
     </div>
 
