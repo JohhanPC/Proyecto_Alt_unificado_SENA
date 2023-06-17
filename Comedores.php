@@ -9,6 +9,7 @@
 
     <link href="misFuentes.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styleMostrarImaganes.css">
     
 </head>
 <body>
@@ -32,7 +33,7 @@
               <a class="nav-link" href="Alcobas.php" style="color: #ffffff;">Alcobas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Alta carpinteria.php" style="color: #ffffff;">Alta Carpinteria</a>
+              <a class="nav-link" href="AltaCarpinteria.php" style="color: #ffffff;">Alta Carpinteria</a>
             </li>            
           </ul>   
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-building-fill" viewBox="0 0 16 16" style="background-color: black;">
@@ -88,7 +89,7 @@
         </button>
       </div>
 
-      <!--Sección de modelos de muebles - seccion 1-->
+      <!--Sección de carga de imagenes y precios--> 
       <div class="grid-container">
         <?php
             include ("mostrarImagenes.php");

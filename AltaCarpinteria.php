@@ -9,12 +9,14 @@
 
     <link href="misFuentes.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styleMostrarImaganes.css">
+    
 </head>
 <body>
 
     <!--Barra de navegación-->
-      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
        <div class="container-fluid" style="background-color: #485870; align-items: center;">        
         <a class="navbar-brand" href="homePage.php" style="color:#ffffff; font-family: Papyrus, fantasy;"><img src="Imagenes/emoji-laughing.svg" style="background-color: #ffffff;">    Home </a> 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,35 +47,34 @@
 
     <!--Titulo inicial-->
     <div class="row mt-2 mb-1">
-        <div class="col-12">
-            <div class="container-fluid text-center">
-                <h1 class="mt-5" style="font-family:Bold Tex; font-size: 80px; font-size: 400%;" >Salas</h1>
-            </div>
-        </div>
-    </div>
-
+      <div class="col-12">
+          <div class="container-fluid text-center">
+              <h1 class="mt-5" style="font-family:Bold Tex; font-size: 80px; font-size: 400%;" >Alta carpinteria</h1>
+          </div>
+      </div>
+  </div>
     <!--Nombre empresa-->
     <div class="row">
-        <div class="col-sm-12">
-            <div class="container-fluid" style="background-color: #87a77c;">
-              <h1 class="mb-1 mt-3 text-center" style="font-family:bold tex;" id="typewriter"></h1>
-            </div>
+      <div class="col-sm-12">
+        <div class="container-fluid" style="background-color: #87a77c;">
+          <h1 class="mb-1 mt-3 text-center" style="font-family:bold tex;" id="typewriter"></h1>
         </div>
+      </div>
     </div>
 
     <!--Carrusel-->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Imagenes/salascarrusel2.png" class="d-block w-100" alt="">
+            <img src="Imagenes/carruselcocinas1.png" class="d-block w-100" alt="">
           </div>
           <div class="carousel-item">
-            <img src="Imagenes/salascarrusel1.png" class="d-block w-100" alt="">          
+            <img src="Imagenes/carruselbiblioteca1.png" class="d-block w-100" alt="">          
           </div>
           <div class="carousel-item">
-            <img src="Imagenes/salascarrusel3.png" class="d-block w-100" alt="">
+            <img src="Imagenes/carruselcuartoestudio1.png" class="d-block w-100" alt="">
             <div class="carousel-caption d-none d-md-block">
-              <h5 style="color: black; font-family:Goudy Old Style; font-size: 60px"></h5>
+              <h5 style="color: black; font-family:Goudy Old Style; font-size: 60px"></h5s>
               <p style="color: black; font-size: 20px;"></p>
             </div>
           </div>
@@ -87,26 +88,48 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
       
-      
-    <!--Sección de carga de imagenes y precios-->   
-    <div class="grid-container">
-        <?php
-            include ("mostrarImagenes.php");
-            
-            $mostrarSalas = new mostrarArticulos;
-            $mostrarSalas->datosDB('localhost', 'root','','db_proyecto_alterno', 'salas');
-            $mostrarSalas->mostrarDatos();
-        ?>
-    </div>
+
+      <!--lista para las 3 secciones restantes-->
+      <div class="row mt-5">
+        <div class="col-md-3">
+            <div class="container" style="border: 3px; margin-top: 10%;">
+              <ul class="list-group">
+                <a href="Cocinas.php">
+                  <li class="list-group-item">* Cocinas</li>
+                </a>
+                <a href="CuartosDeEstudio.php">
+                  <li class="list-group-item">* Cuarto de estudio</li>
+                </a> 
+                <a href="Bibliotecas.php">
+                  <li class="list-group-item">* Blibliotecas</li>
+                </a>
+              </ul>
+            </div>
+        </div>
+
+
+        <!--Sección de carga de imagenes y precios-->  
+        <div class="grid-container">
+            <?php
+                include ("mostrarImagenes.php");
+                
+                $mostrarAlcobas = new mostrarArticulos;
+                $mostrarAlcobas->datosDB('localhost', 'root','','db_proyecto_alterno', 'alcobas');
+                $mostrarAlcobas->mostrarDatos();
+            ?>
+        </div>        
+
+
 
       <!--Datos de contacto-->
-      <div class="row mt-5 border-top border-4" style="background-image: url(Imagenes/fondomadera.jpg);">
+      <div class="row mt-5" style="background-image: url(Imagenes/fondomadera.jpg);">
         <div class="col-sm-1">
         </div>
         <div class="col-sm-2" style="text-align: right; margin-top: 5%;">
           <div class="container-fluid" style="height: 100%;">
-            <a href="https://www.facebook.com/" target="_blank"><img src="Imagenes/facebook.svg" alt="" style="height: 100%;"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="Imagenes/facebook.svg" alt="" style="height: 50%;"></a>
           </div>
         </div>
         <div class="col-sm-6">
@@ -115,7 +138,6 @@
             <h6 style="font-family:Papyrus, fantasy;">Dirección: Krr 24 # 15-78 sur</h6>
             <h6 style="font-family:Papyrus, fantasy;">Telfono: 3224257854</h6>
             <h6 style="font-family:Papyrus, fantasy;">Email: mueblesfgonzalez1@gmail.com</h6><br>
-            
           </div>
         </div>
         <div class="col-sm-2" style="text-align: left; margin-top: 5%;">  
@@ -140,16 +162,15 @@
                 <p class="text-center">Bogotá</p>
               </div>
               <div>
-                <p class="text-primary fs-5">Cumplimos en:</p>
+                <p class="text-primary fs-5">Cumplimos con:</p>
                 <p class="text-center">Habeas Data - ISO 9001</p>
               </div>
             </section>          
         </div>
-      </div>
-     
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/core.js"></script>
-      <script src="main.js"></script>
-      
+      </div>   
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
