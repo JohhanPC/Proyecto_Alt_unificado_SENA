@@ -123,7 +123,7 @@
           include ("mostrarImagenes.php");
           
           $mostrarAlcobas = new mostrarArticulos;
-          $mostrarAlcobas->datosDB('localhost', 'root','','db_proyecto_alterno', 'alcobas');
+          $mostrarAlcobas->datosDB('localhost', 'root','','db_proyecto_alterno', 'alta_carpinteria');
           $mostrarAlcobas->mostrarDatos();
       ?>
   </div>        
