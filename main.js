@@ -4,5 +4,5 @@ const typewriter = new Typewriter (app, {
     delay: 200
 });
 
-typewriter.typeString("Muebles F Gonzalez").pauseFor(1000).start();
+typewriter.typeString("Muebles Madera Viva").pauseFor(1000).start();
 
