@@ -101,7 +101,7 @@
             include ("mostrarImagenes.php");
             
             $mostrarSalas = new mostrarArticulos;
-            $mostrarSalas->datosDB('localhost', 'root','','db_proyecto_alterno', 'salas');
+            $mostrarSalas->datosDB('localhost', 'root','','DataBaseProyectoAlterno', 'salas');
             $mostrarSalas->mostrarDatos();
         ?>
     </div>

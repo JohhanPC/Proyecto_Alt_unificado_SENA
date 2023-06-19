@@ -102,7 +102,7 @@
           include ("mostrarImagenes.php");
           
           $mostrarComedores = new mostrarArticulos;
-          $mostrarComedores->datosDB('localhost', 'root','','db_proyecto_alterno', 'comedores');
+          $mostrarComedores->datosDB('localhost', 'root','','DataBaseProyectoAlterno', 'comedores');
           $mostrarComedores->mostrarDatos();
       ?>
   </div>
