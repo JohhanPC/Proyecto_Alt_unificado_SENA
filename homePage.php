@@ -99,7 +99,7 @@
           <div class="carousel-item active">
             <img src="Imagenes/SeccionSalas.png" class="d-block w-100" alt="">
             <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE; ">
-              <a href="Salas.html" style="color: white ; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de salas</a>
+              <a href="Salas.php" style="color: white ; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de salas</a>
             </div>
           </div>
         </div>        
@@ -109,7 +109,7 @@
           <div class="carousel-item active">
             <img src="Imagenes/seccionComedor.png" class="d-block w-100" alt="">
             <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
-              <a href="Comedores.html" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Comedores</a>
+              <a href="Comedores.php" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Comedores</a>
             </div>
           </div>
         </div>        
@@ -119,7 +119,7 @@
           <div class="carousel-item active">
             <img src="Imagenes/Alcobas1.png" class="d-block w-100" alt="">
             <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
-              <a href="Salas.html" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Alcobas</a>
+              <a href="Salas.php" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Alcobas</a>
             </div>
           </div>
         </div>        
@@ -129,7 +129,7 @@
           <div class="carousel-item active">
             <img src="Imagenes/seccion alta carpinteria.png" class="d-block w-100 img-fluid" alt="">
             <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
-              <a href="Alta carpinteria.html" style="color: white; font-family:Goudy Old Style; font-size: 200%;">Ir catalogo de Alta Carpienteria</a>
+              <a href="AltaCarpinteria.php" style="color: white; font-family:Goudy Old Style; font-size: 200%;">Ir catalogo de Alta Carpienteria</a>
             </div>
           </div>
         </div>        
