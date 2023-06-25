@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styleMostrarImaganes.css">
     <link rel="stylesheet" href="nav-bar.css" type="text/css">
+    <script src="https://kit.fontawesome.com/8317f13ec8.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
