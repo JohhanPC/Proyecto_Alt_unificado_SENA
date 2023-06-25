@@ -1,0 +1,188 @@
+CREATE TABLE salas (
+ID INT (11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+codigo VARCHAR (50) NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+descripcion VARCHAR (255) NOT NULL,
+precio VARCHAR (50) NOT NULL,
+url_imagen LONGBLOB
+)
+
+CREATE TABLE comedores (
+ID INT (11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+codigo VARCHAR (50) NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+descripcion VARCHAR (255) NOT NULL,
+precio VARCHAR (50) NOT NULL,
+url_imagen LONGBLOB
+)
+
+CREATE TABLE alcobas (
+ID INT (11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+codigo VARCHAR (50) NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+descripcion VARCHAR (255) NOT NULL,
+precio VARCHAR (50) NOT NULL,
+url_imagen LONGBLOB
+)
+
+CREATE TABLE cocinas (
+ID INT (11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+codigo VARCHAR (50) NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+descripcion VARCHAR (255) NOT NULL,
+precio VARCHAR (50) NOT NULL,
+url_imagen LONGBLOB
+)
+
+CREATE TABLE cuartos_estudios (
+ID INT (11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+codigo VARCHAR (50) NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+descripcion VARCHAR (255) NOT NULL,
+precio VARCHAR (50) NOT NULL,
+url_imagen LONGBLOB
+)
+
+CREATE TABLE bibliotecas (
+ID INT (11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+codigo VARCHAR (50) NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+descripcion VARCHAR (255) NOT NULL,
+precio VARCHAR (50) NOT NULL,
+url_imagen LONGBLOB
+)
+
+CREATE TABLE alta_carpinteria (
+ID INT (11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+codigo VARCHAR (50) NOT NULL,
+nombre VARCHAR (100) NOT NULL,
+descripcion VARCHAR (255) NOT NULL,
+precio VARCHAR (50) NOT NULL,
+url_imagen LONGBLOB
+)
+
+INSERT INTO salas (codigo, nombre, descripcion, precio, url_imagen)
+VALUES
+('salas1','Sofá Ámsterdam','N/A','$ 3.250.000','Imagenes/salas/salas1.png'),
+('salas2','Sillón Berlín','N/A','$ 1.800.000','Imagenes/salas/salas2.png'),
+('salas3','Sofá Bruselas','N/A','$ 2.700.000','Imagenes/salas/salas3.png'),
+('salas4','Sofá Capri','N/A','$ 3.850.000','Imagenes/salas/salas4.png'),
+('salas5','Sofá París','N/A','$ 2.750.000','Imagenes/salas/salas5.png'),
+('salas7','Sofá Nórdico','N/A','$ 3.550.000','Imagenes/salas/salas7.png'),
+('salas9','Sillón Dublín','N/A','$ 2.250.000','Imagenes/salas/salas9.png'),
+('salas10','Sillón Oxford','N/A','$ 2.960.000','Imagenes/salas/salas10.png'),
+('salas11','Sillón Toulouse','N/A','$ 4.340.000','Imagenes/salas/salas11.png'),
+('salas13','Sofá Chicago','N/A','$ 4.250.000','Imagenes/salas/salas13.png'),
+('salas14','Sofá Florencia','N/A','$ 3.440.000','Imagenes/salas/salas14.png'),
+('salas15','Sillón Londres','N/A','$ 2.450.000','Imagenes/salas/salas15.png'),
+('salas17','Sofá Sevilla','N/A','$ 3.990.000','Imagenes/salas/salas17.png'),
+('salas19','Sillón Savoy','N/A','$ 2.750.000','Imagenes/salas/salas19.png'),
+('salas20','Sillón Marsella','N/A','$ 1.970.000','Imagenes/salas/salas20.png')
+
+INSERT INTO comedores (codigo, nombre, descripcion, precio, url_imagen)
+VALUES
+('comedores1','Comedor 6 puestos Alaska','N/A','$ 3.330.000','Imagenes/comedores/comedores1.png'),
+('comedores2','Comedor 6 puestos Sevilla','N/A','$ 2.830.000','Imagenes/comedores/comedores2.png'),
+('comedores3','Comedor 6 puestos Underground','N/A','$ 2.350.000','Imagenes/comedores/comedores3.png'),
+('comedores4','Comedor 4 puestos Marsella','N/A','$ 3.550.000','Imagenes/comedores/comedores4.png'),
+('comedores5','Comedor 6 puestos Valenciano','N/A','$ 4.250.000','Imagenes/comedores/comedores5.png'),
+('comedores6','Comedor 4 puestos Suburbios','N/A','$ 2.650.000','Imagenes/comedores/comedores6.png'),
+('comedores7','Comedor 6 puestos Manchester','N/A','$ 3.350.000','Imagenes/comedores/comedores7.png'),
+('comedores8','Comedor 4 puestos Mediterraneo','N/A','$ 2.240.000','Imagenes/comedores/comedores8.png'),
+('comedores9','Comedor 4 puestos New York','N/A','$ 2.640.000','Imagenes/comedores/comedores9.png'),
+('comedores10','Comedor 4 puestos Simple','N/A','$ 1.750.000','Imagenes/comedores/comedores10.png'),
+('comedores11','Comedor 4 puestos Ceniza','N/A','$ 2.040.000','Imagenes/comedores/comedores11.png'),
+('comedores12','Comedor 6 puestos Europeo','N/A','$ 3.150.000','Imagenes/comedores/comedores12.png'),
+('comedores13','Comedor 8 puestos Industrial','N/A','$ 4.990.000','Imagenes/comedores/comedores13.png'),
+('comedores14','Comedor 6 puestos Minimalista','N/A','$ 2.750.000','Imagenes/comedores/comedores14.png'),
+('comedores15','Comedor 6 puestos Valenciano plus','N/A','$ 4.250.000','Imagenes/comedores/comedores15.png')
+
+INSERT INTO alcobas (codigo, nombre, descripcion, precio, url_imagen)
+VALUES
+('alcobas1','Juego alcoba Osaka','N/A','$ 4.750.000','Imagenes/alcobas/alcobas1.png'),
+('alcobas2','Juego alcoba Brooklyn','N/A','$ 2.990.000','Imagenes/alcobas/alcobas2.png'),
+('alcobas3','Juego alcoba Quebec','N/A','$ 2.650.000','Imagenes/alcobas/alcobas3.png'),
+('alcobas4','Juego alcoba Yakutsk','N/A','$ 3.160.000','Imagenes/alcobas/alcobas4.png'),
+('alcobas5','Juego alcoba Obsidiana','N/A','$ 4.660.000','Imagenes/alcobas/alcobas5.png'),
+('alcobas6','Juego alcoba Sahara','N/A','$ 3.560.000','Imagenes/alcobas/alcobas6.png'),
+('alcobas7','Juego alcoba Midas','N/A','$ 3.450.000','Imagenes/alcobas/alcobas7.png'),
+('alcobas8','Juego alcoba Vegas','N/A','$ 2.990.000','Imagenes/alcobas/alcobas8.png'),
+('alcobas9','Juego alcoba Beijing','N/A','$ 3.100.000','Imagenes/alcobas/alcobas9.png'),
+('alcobas10','Juego alcoba Bloomsbury','N/A','$ 2.750.000','Imagenes/alcobas/alcobas10.png'),
+('alcobas11','Juego alcoba Terracota','N/A','$ 4.040.000','Imagenes/alcobas/alcobas11.png'),
+('alcobas12','Juego alcoba Tebas','N/A','$ 4.890.000','Imagenes/alcobas/alcobas12.png'),
+('alcobas13','Juego alcoba Cairo','N/A','$ 4.690.000','Imagenes/alcobas/alcobas13.png'),
+('alcobas14','Juego alcoba Salonica','N/A','$ 4.290.000','Imagenes/alcobas/alcobas14.png'),
+('alcobas15','Juego alcoba Opera','N/A','$ 3.450.000','Imagenes/alcobas/alcobas15.png')
+
+INSERT INTO cocinas (codigo, nombre, descripcion, precio, url_imagen)
+VALUES
+('cocina1','Cocina basic beige en L dos mubles','N/A','Desde $ 4.500.000','Imagenes/cocinas/cocina1.png'),
+('cocina2','Cocina Nevada en L','N/A','Desde $ 6.500.000','Imagenes/cocinas/cocina2.png'),
+('cocina3','Cocina sombra con isla comedor','N/A','Desde $5.500.000','Imagenes/cocinas/cocina3.png'),
+('cocina4','Cocina minimalista white 2 fases','N/A','Desde $6.500.000','Imagenes/cocinas/cocina4.png'),
+('cocina5','Cocina Basic white','N/A','Desde $4.500.000','Imagenes/cocinas/cocina5.png'),
+('cocina6','Cocina Celeste clasica','N/A','Desde $4.000.000','Imagenes/cocinas/cocina6.png'),
+('cocina7','Cocina Volcanica 2 fases','N/A','Desde $7.000.000','Imagenes/cocinas/cocina7.png'),
+('cocina8','Cocina Meditarrenea 2 fases','N/A','Desde $5.500.000','Imagenes/cocinas/cocina8.png'),
+('cocina9','Cocina Natural con isla','N/A','Desde $4.500.000','Imagenes/cocinas/cocina9.png'),
+('cocina10','Cocina Artiko en L','N/A','Desde $7.500.000','Imagenes/cocinas/cocina10.png'),
+('cocina11','Cocina 90´s Madera','N/A','Desde $7.500.000','Imagenes/cocinas/cocina11.png'),
+('cocina12','Cocina Cobrizo con isla','N/A','Desde $6.500.000','Imagenes/cocinas/cocina12.png'),
+('cocina13','Cocina Vintage con bar','N/A','Desde $6.000.000','Imagenes/cocinas/cocina13.png'),
+('cocina14','Cocina Basic muebles inferior','N/A','Desde $4.000.000','Imagenes/cocinas/cocina14.png'),
+('cocina15','Cocina Duna con isla','N/A','Desde $6.500.000','Imagenes/cocinas/cocina15.png')
+
+INSERT INTO cuartos_estudios (codigo, nombre, descripcion, precio, url_imagen)
+VALUES
+('estudio1','Escritorio Caoba ejecutivo','N/A','Desde $ 2.000.000','Imagenes/cuartos_de_estudio/estudio1.png'),
+('estudio2','Escritorio empotrado y mueble superior Alaska','N/A','Desde $ 3.500.000','Imagenes/cuartos_de_estudio/estudio2.png'),
+('estudio3','Escritorio y silla Fresno Sencillo','N/A','Desde $ 1.500.000','Imagenes/cuartos_de_estudio/estudio3.png'),
+('estudio4','Escritorio Ejecutivo Obsidiana y muebles auxiliar','N/A','Desde $ 3.900.000','Imagenes/cuartos_de_estudio/estudio4.png'),
+('estudio5','Escritorio Basic lineal Abedul','N/A','Desde $ 3.200.000','Imagenes/cuartos_de_estudio/estudio5.png'),
+('estudio6','Escritorio y estanteria Spring Basic','N/A','Desde $ 3.800.000','Imagenes/cuartos_de_estudio/estudio6.png'),
+('estudio7','Escritorio lineal Roble claro','N/A','Desde $ 1.800.000','Imagenes/cuartos_de_estudio/estudio7.png'),
+('estudio8','Escritorio lineal White flotante','N/A','Desde $ 1.300.000','Imagenes/cuartos_de_estudio/estudio8.png'),
+('estudio9','Escritorio sencillo Vintage','N/A','Desde $ 1.500.000','Imagenes/cuartos_de_estudio/estudio9.png'),
+('estudio10','Escritorio y silla Industry Roble Rojo','N/A','Desde $ 2.100.000','Imagenes/cuartos_de_estudio/estudio10.png'),
+('estudio11','Escritorio double Ceniza','N/A','Desde $ 4.500.000','Imagenes/cuartos_de_estudio/estudio11.png'),
+('estudio12','Escritorio Mediterraneo ','N/A','Desde $ 3.500.000','Imagenes/cuartos_de_estudio/estudio12.png'),
+('estudio13','Escritorio small float','N/A','Desde $ 1.000.000','Imagenes/cuartos_de_estudio/estudio13.png'),
+('estudio14','Escritorio y biblioteca individual bone','N/A','Desde $ 2.400.000','Imagenes/cuartos_de_estudio/estudio14.png'),
+('estudio15','Escritorio double ejecutivo Jatoba','N/A','Desde $ 4.700.000','Imagenes/cuartos_de_estudio/estudio15.png')
+
+INSERT INTO bibliotecas (codigo, nombre, descripcion, precio, url_imagen)
+VALUES
+('biblioteca1','Biblioteca espiral white','N/A','Desde $ 4.700.000','Imagenes/bibliotecas/biblioteca1.png'),
+('biblioteca2','Biblioteca Ceniza Basic','N/A','Desde $ 3.700.000','Imagenes/bibliotecas/biblioteca2.png'),
+('biblioteca3','Biblioteca en L pino flotante','N/A','Desde $ 4.500.000','Imagenes/bibliotecas/biblioteca3.png'),
+('biblioteca4','Biblioteca Obsidina ejecutiva','N/A','Desde $ 5.200.000','Imagenes/bibliotecas/biblioteca4.png'),
+('biblioteca5','Biblioteca clasic beige','N/A','Desde $ 2.800.000','Imagenes/bibliotecas/biblioteca5.png'),
+('biblioteca6','Biblioteca Cerezo a la medida','N/A','Desde $ 6.700.000','Imagenes/bibliotecas/biblioteca6.png'),
+('biblioteca7','Biblioteca Nogal dos partes L','N/A','Desde $ 2.100.000','Imagenes/bibliotecas/biblioteca7.png'),
+('biblioteca8','Biblioteca Alaska','N/A','Desde $ 3.900.000','Imagenes/bibliotecas/biblioteca8.png'),
+('biblioteca9','Biblioteca Burgues Clasic','N/A','Desde $ 3.700.000','Imagenes/bibliotecas/biblioteca9.png'),
+('biblioteca10','Biblioteca Rustic clasic','N/A','Desde $ 3.100.000','Imagenes/bibliotecas/biblioteca10.png'),
+('biblioteca11','Bibloteca a medida en L flotante Fresno','N/A','Desde $ 3.500.000','Imagenes/bibliotecas/biblioteca11.png'),
+('biblioteca12','Biblioteca Ceniza Basic','N/A','Desde $ 3.700.000','Imagenes/bibliotecas/biblioteca12.png'),
+('biblioteca13','Bibloteca Ice contemporanea a la medida','N/A','Desde $ 4.100.000','Imagenes/bibliotecas/biblioteca13.png'),
+('biblioteca14','Biblioteca Space gray','N/A','Desde $ 4.400.000','Imagenes/bibliotecas/biblioteca14.png'),
+('biblioteca15','Biblioteca circular Olivo','N/A','Desde $ 5.700.000','Imagenes/bibliotecas/biblioteca15.png')
+
+INSERT INTO alta_carpinteria (codigo, nombre, descripcion, precio, url_imagen)
+VALUES
+('biblioteca6','Biblioteca Cerezo a la medida','N/A','Desde $ 6.700.000','Imagenes/bibliotecas/biblioteca6.png'),
+('estudio9','Escritorio sencillo Vintage','N/A','Desde $ 1.500.000','Imagenes/cuartos_de_estudio/estudio9.png'),
+('cocina6','Cocina Celeste clasica','N/A','Desde $4.000.000','Imagenes/cocinas/cocina6.png'),
+('biblioteca9','Biblioteca Burgues Clasic','N/A','Desde $ 3.700.000','Imagenes/bibliotecas/biblioteca9.png'),
+('biblioteca1','Biblioteca espiral white','N/A','Desde $ 4.700.000','Imagenes/bibliotecas/biblioteca1.png'),
+('estudio10','Escritorio y silla Industry Roble Rojo','N/A','Desde $ 2.100.000','Imagenes/cuartos_de_estudio/estudio10.png'),
+('biblioteca4','Biblioteca Obsidina ejecutiva','N/A','Desde $ 5.200.000','Imagenes/bibliotecas/biblioteca4.png'),
+('biblioteca11','Bibloteca a medida en L flotante Fresno','N/A','Desde $ 3.500.000','Imagenes/bibliotecas/biblioteca11.png'),
+('cocina10','Cocina Artiko en L','N/A','Desde $7.500.000','Imagenes/cocinas/cocina10.png'),
+('biblioteca3','Biblioteca en L pino flotante','N/A','Desde $ 4.500.000','Imagenes/bibliotecas/biblioteca3.png'),
+('biblioteca14','Biblioteca Space gray','N/A','Desde $ 4.400.000','Imagenes/bibliotecas/biblioteca14.png'),
+('biblioteca2','Biblioteca Ceniza Basic','N/A','Desde $ 3.700.000','Imagenes/bibliotecas/biblioteca2.png'),
+('biblioteca8','Biblioteca Alaska','N/A','Desde $ 3.900.000','Imagenes/bibliotecas/biblioteca8.png'),
+('cocina11','Cocina 90´s Madera','N/A','Desde $7.500.000','Imagenes/cocinas/cocina11.png'),
+('estudio11','Escritorio double Ceniza','N/A','Desde $ 4.500.000','Imagenes/cuartos_de_estudio/estudio11.png')

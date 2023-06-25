@@ -1,0 +1,25 @@
+.cotainer_nosotros{
+    display: flex;
+    border-style: dashed;
+    padding: 5%;
+    grid-gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container_div{
+    display: flex;
+    border-style: dashed;
+    height: 300px;
+    width: 500px;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;    
+}
+
+.img_div{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}

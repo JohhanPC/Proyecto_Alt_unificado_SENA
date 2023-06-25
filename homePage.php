@@ -9,45 +9,34 @@
 
     <link href="misFuentes.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="nav-bar.css" type="text/css">
+    <script src="https://kit.fontawesome.com/8317f13ec8.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
-    <!--Barra de navegación-->
-      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
-       <div class="container-fluid" style="background-color: #9ed88b; align-items: center;">        
-        <a class="navbar-brand" href="homePage.php" style="color:#ab35a5; font-family:Papyrus, fantasy;">
-          <a class="nav-link active" aria-current="page" href="homePage.php" style="color: #ab35a5;" font-family: Papyrus, fantasy;><b>Home</b></a>
 
-         
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="align-items: center;">          
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Salas.php" style="color: #ab35a5;">Salas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Comedores.php" style="color: #ab35a5;">Comedores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Alcobas.php" style="color: #ab35a5;">Alcobas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="AltaCarpinteria.php" style="color:#ab35a5">Alta Carpinteria</a>
-            </li>            
-          </ul>   
-          <a class="nav-link active" aria-current="page" href="#" style="color: #ab35a5; font-family: Papyrus, fantasy;"><b>Nosotros</b></a> 
-          <div style="text-align: center;">
-
-            <img src="Imagenes/logo.png" width="80px" height="80px">  </a>
-          </div>
-                                      
-        </div>
+<!--Nav Bar-->
+    <div class="nav-bar">
+      <ul>
+        <li><a href="homePage.php">Home</a></li>
+        <li><a href="Salas.php">Salas</a></li>
+        <li><a href="Comedores.php">Comedores</a></li>
+        <li><a href="Alcobas.php">Alcobas</a></li>
+        <li><a href="AltaCarpinteria.php">Alta Carpinteria</a></li>
+        <li><a href="homePage.php"><img src="Imagenes/logo.png" width="80px" height="80px"></a></li>
+      </ul>
+      <div class="nav-bar-menu">        
+          <span class="menu-toggle"><i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i></span>
+          <ul class="dropdown-menu">
+            <li><a href="homePage.php">Home</a></li>
+            <li><a href="Salas.php">Salas</a></li>
+            <li><a href="Comedores.php">Comedores</a></li>
+            <li><a href="Alcobas.php">Alcobas</a></li>
+            <li><a href="AltaCarpinteria.php">Alta Carpinteria</a></li>
+            <li><a href="homePage.php"><img src="Imagenes/logo.png" width="80px" height="80px"></a></li>
+          </ul>
       </div>
-    </nav>
-
+    </div>
 
     <!--Nombre empresa-->
     <div class="cointainer-fluid">
@@ -84,7 +73,7 @@
     
 
       <!--Contexto e imagen-->
-      <div class="container" style="background-color: #e3eba0; border-radius:2%;">
+      <div class="container" style="background-color: #D0AACF; border-radius:2%;">
         <div class="row mt-5 mb-10">
           <div class="col-sm-6 mb-3 mb-sm-0">
             
@@ -109,7 +98,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="Imagenes/SeccionSalas.png" class="d-block w-100" alt="">
-            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #485870; ">
+            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE; ">
               <a href="Salas.html" style="color: white ; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de salas</a>
             </div>
           </div>
@@ -119,7 +108,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="Imagenes/seccionComedor.png" class="d-block w-100" alt="">
-            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #485870;">
+            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
               <a href="Comedores.html" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Comedores</a>
             </div>
           </div>
@@ -129,7 +118,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="Imagenes/Alcobas1.png" class="d-block w-100" alt="">
-            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #485870;">
+            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
               <a href="Salas.html" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Alcobas</a>
             </div>
           </div>
@@ -139,7 +128,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="Imagenes/seccion alta carpinteria.png" class="d-block w-100 img-fluid" alt="">
-            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #485870;">
+            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
               <a href="Alta carpinteria.html" style="color: white; font-family:Goudy Old Style; font-size: 200%;">Ir catalogo de Alta Carpienteria</a>
             </div>
           </div>
@@ -182,7 +171,7 @@
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="container-fluid" style="background-color: #9ed88b; color: #ab35a5; text-align: center; height: 100%;">
+          <div class="container-fluid" style="background-color: #B251AE; color: white; text-align: center; height: 100%;">
             <br><h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Muebles madera viva</h4>
             <h6 style="font-family:Papyrus, fantasy;"><b>Dirección: Krr 24 # 15-78 sur</b></h6>
             <h6 style="font-family:Papyrus, fantasy;"><b>Telfono: 3224257854</b></h6>
@@ -199,7 +188,7 @@
       </div>
       
       <!--Pie de pagina-->
-      <div class="container text-center mt-2">
+      <div class="container-fluid" style="background-color: #dfdcdc">
         <div id="local">          
             <section class="d-flex" id="numeros-local">
               <div>
