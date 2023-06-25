@@ -91,10 +91,11 @@
       position: absolute;
       margin-top: 10px;
       left: 50%;
-      background-color:rgb(191, 184, 184, 0.9);
+      background-color:#dfdcdc;
       padding: 0;
       z-index: 10;
-      padding-right: 50%;
+      border: none;
+      padding-right: 53%;
       text-align: right;
     }
     
