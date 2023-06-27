@@ -111,9 +111,9 @@
       <?php
           include ("mostrarImagenes.php");
           
-          $mostrarAlcobas = new mostrarArticulos;
-          $mostrarAlcobas->datosDB('localhost', 'root','','DataBaseProyectoAlterno', 'cocinas');
-          $mostrarAlcobas->mostrarDatos();
+          $mostrarCocinas = new mostrarArticulos;
+          $mostrarCocinas->datosDB('localhost', 'root','','DataBaseProyectoAlterno', 'cocinas');
+          $mostrarCocinas->mostrarDatos();
       ?>
   </div>        
 

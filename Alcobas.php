@@ -61,13 +61,13 @@
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="Imagenes/salascarrusel2.png" class="d-block w-100" alt="">
+        <img src="Imagenes/carrucelalcobas2.png" class="d-block w-100" alt="">
       </div>
       <div class="carousel-item">
-        <img src="Imagenes/salascarrusel1.png" class="d-block w-100" alt="">          
+        <img src="Imagenes/carrucelalcobas3.png" class="d-block w-100" alt="">          
       </div>
       <div class="carousel-item">
-        <img src="Imagenes/salascarrusel3.png" class="d-block w-100" alt="">
+        <img src="Imagenes/carruselalcobas1.png" class="d-block w-100" alt="">
         <div class="carousel-caption d-none d-md-block">
           <h5 style="color: black; font-family:Goudy Old Style; font-size: 60px"></h5>
           <p style="color: black; font-size: 20px;"></p>
