@@ -20,3 +20,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+//Icono whatsapp
+window.addEventListener('DOMContentLoaded', function() {
+  var icon = document.querySelector('.whatsapp-float');
+
+  function updateIconPosition() {
+    var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+    var windowHeight = window.innerHeight;
+    var halfWindowHeight = windowHeight / 2;
+
+    if (scrollPosition > halfWindowHeight) {
+      icon.style.transform = 'translateY(-50%)';
+    } else {
+      icon.style.transform = 'translateY(calc(-50% + ' + (halfWindowHeight - scrollPosition) + 'px))';
+    }
+  }
+
+  window.addEventListener('scroll', updateIconPosition);
+});
+

@@ -7,7 +7,6 @@
     align-items: center;
     padding-top: 4px;
     height: 70px;
-   /* position: absolute;/* No cambiar, para que el menu se sobre ponga al carrusel*/
     top: 0;
     position: fixed;
     z-index: 3;
@@ -28,11 +27,7 @@
     height: 50%;
     
   }
-  
-  /* .nav-bar ul li:last-child {
-    margin-right: 0;
-  } */
-  
+    
   .nav-bar ul li a {
     text-decoration: none;
     color: #000000;
@@ -115,3 +110,40 @@
       margin-bottom: 10px;
     }
   }
+
+  /*Icono de Whatsapp*/
+
+  .whatsapp-float {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    background-color: #f6f7f6;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);   
+    z-index: 1000;
+    /* transform: translate(-50%, -50%); */
+    top: 80%;
+    animation: shake 1s infinite;
+}
+  
+.whatsapp-float:hover {
+    background-color: #000000; 
+    animation: none;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(-5px);
+  }
+}

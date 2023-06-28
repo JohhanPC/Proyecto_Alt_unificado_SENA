@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="nav-bar.css" type="text/css">
     <script src="https://kit.fontawesome.com/8317f13ec8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
 
-<!--Nav Bar-->
+    <!--Nav Bar-->
     <div class="nav-bar">
       <ul>
         <li><a href="homePage.php">Home</a></li>
@@ -70,70 +71,78 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <!--Icono whatsapp-->
+    <div class="whatsapp-float">
+      <a href="https://wa.me/0573224257854" target="_blank">
+        <i class="fa-brands fa-whatsapp fa-2xl" style="color: #4eef58;"></i>
+      </a>
+    </div> 
     
 
-      <!--Contexto e imagen-->
-      <div class="container" style="background-color: #D0AACF; border-radius:2%;">
-        <div class="row mt-5 mb-10">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            
-              <h1 style="color: #000; font-family: AR; text-align: center; font-size: 300%; margin-top: 10%;">Tu espacio a tu manera</h1><br>
-              <p class="lead" style="color: #000;; text-align: center; margin-top: 5%">
-              Descubre la belleza de nuestros muebles Y diseño<br>
-              Nosotros no creemos que una única solución sea<br>
-              adecuada para cualquier espacio,<br>
-              creemos en soluciones que sean...<b><i>!tan individuales como tú¡</i></b>    
-            </p>
-          </div>
-          <div class="col-sm-6 mb-3 mb-sm-0" style="text-align: center;">
-            <img src="Imagenes/tuespacio1.png" class="img-fluid mt-4 mb-4" style="border-radius: 15%;"><!--La clase img-fluid rounded es para generar una imagen responsive-->
-          </div>
+    <!--Contexto e imagen-->
+    <div class="container" style="background-color: #D0AACF; border-radius:2%;">
+      <div class="row mt-5 mb-10">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          
+            <h1 style="color: #000; font-family: AR; text-align: center; font-size: 300%; margin-top: 10%;">Tu espacio a tu manera</h1><br>
+            <p class="lead" style="color: #000;; text-align: center; margin-top: 5%">
+            Descubre la belleza de nuestros muebles Y diseño<br>
+            Nosotros no creemos que una única solución sea<br>
+            adecuada para cualquier espacio,<br>
+            creemos en soluciones que sean...<b><i>!tan individuales como tú¡</i></b>    
+          </p>
+        </div>
+        <div class="col-sm-6 mb-3 mb-sm-0" style="text-align: center;">
+          <img src="Imagenes/tuespacio1.png" class="img-fluid mt-4 mb-4" style="border-radius: 15%;"><!--La clase img-fluid rounded es para generar una imagen responsive-->
         </div>
       </div>
-      <br> 
-            
-      <!--Clases de muebles-->
+    </div>
+    <br>
 
-      <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Imagenes/SeccionSalas.png" class="d-block w-100" alt="">
-            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE; ">
-              <a href="Salas.php" style="color: white ; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de salas</a>
-            </div>
+            
+    <!--Clases de muebles-->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/SeccionSalas.png" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE; ">
+            <a href="Salas.php" style="color: white ; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de salas</a>
           </div>
-        </div>        
-      </div>
-      <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Imagenes/seccionComedor.png" class="d-block w-100" alt="">
-            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
-              <a href="Comedores.php" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Comedores</a>
-            </div>
+        </div>
+      </div>        
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/seccionComedor.png" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
+            <a href="Comedores.php" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Comedores</a>
           </div>
-        </div>        
-      </div>
-      <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Imagenes/Alcobas1.png" class="d-block w-100" alt="">
-            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
-              <a href="Salas.php" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Alcobas</a>
-            </div>
+        </div>
+      </div>        
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/Alcobas1.png" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
+            <a href="Salas.php" style="color: white; font-family:Goudy Old Style; font-size: 200%">Ir a catalogo de Alcobas</a>
           </div>
-        </div>        
-      </div>
-      <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Imagenes/seccion alta carpinteria.png" class="d-block w-100 img-fluid" alt="">
-            <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
-              <a href="AltaCarpinteria.php" style="color: white; font-family:Goudy Old Style; font-size: 200%;">Ir catalogo de Alta Carpienteria</a>
-            </div>
+        </div>
+      </div>        
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/seccion alta carpinteria.png" class="d-block w-100 img-fluid" alt="">
+          <div class="carousel-caption d-none d-md-block w-50" style="background-color: #B251AE;">
+            <a href="AltaCarpinteria.php" style="color: white; font-family:Goudy Old Style; font-size: 200%;">Ir catalogo de Alta Carpienteria</a>
           </div>
-        </div>        
-      </div>
+        </div>
+      </div>        
+    </div>
      
       <!--Fichas de abstract-->
       <br>       

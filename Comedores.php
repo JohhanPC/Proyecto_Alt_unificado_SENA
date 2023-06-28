@@ -85,7 +85,14 @@
       </button>
     </div>
 
-      <!--Sección de carga de imagenes y precios--> 
+  <!--Icono whatsapp-->
+  <div class="whatsapp-float">
+    <a href="https://wa.me/0573224257854" target="_blank">
+      <i class="fa-brands fa-whatsapp fa-2xl" style="color: #4eef58;"></i>
+    </a>
+  </div>  
+
+  <!--Sección de carga de imagenes y precios--> 
   <div class="grid-container">
       <?php
           include ("mostrarImagenes.php");
